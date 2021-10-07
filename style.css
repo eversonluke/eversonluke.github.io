@@ -1,1 +1,44 @@
-/* Currently empty, commenting to allow upload to GitHub */
+.page-section {
+    margin-bottom: 0rem;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.page-subsection {
+    margin-bottom: -0.4rem;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.list-item {
+    line-height: 1.3rem;
+}
+
+.menu {
+    padding-bottom: 1.5rem;
+    font-size: 1.3rem;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+h1 {
+    margin-bottom: -1rem;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+}
+
+a {
+    color: #990000;
+}
+
+a:hover {
+    color: #db0000;
+}
+
+a:active {
+    text-decoration: underline;
+}

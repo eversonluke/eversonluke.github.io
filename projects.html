@@ -4,11 +4,85 @@
         <title> Lucas Everson: Projects </title>
         <meta charset = "utf-8"/>
         <meta name = "viewport" content = "width = device-width, initial-scale = 1"/>
-        <link rel = "stylesheet" href = "foundation_intro/css/foundation.css">
+        <link rel = "stylesheet" href = "css/foundation.css">
         <link rel = "stylesheet" href = "style.css">
     </head>
+
     <body>
-        <h1> Past Projects </h1>
+        <style>
+            body {
+                background-color: #bd69ff
+            }
+        </style>
+
+        <div class="grid-container">
+            <h1> Past Projects </h1>
+
+            <ul class = "menu">
+                <li><a href = "index.html"> Home </a></li>
+                <li><a href = "resume.html"> Resume </a></li>
+                <li><a href = "fun.html"> Fun Stuff! </a></li>
+            </ul>
+
+            <h1 class = "page-section"> In the professional world </h1>
+            <a class = "show-for-small-only" href = "https://www.blossmangas.com/" target = "_blank">
+                <img src = "images/blossman-logo.png" style = "margin: 1rem"/>
+            </a>
+            <a class = "show-for-medium" href = "https://www.blossmangas.com/" target = "_blank">
+                <img src = "images/blossman-logo.png" style = "float: right; margin: 1rem"/>
+            </a>
+            <p class = "page-subsection"> Blossman Gas </p>
+            <p> One of my recent projects I completed at my internship at Utilimarc involved working to convert a potential client
+                of ours into a full-time client via signing a contract with them. This involved using client data to write
+                SQL queries designed specifically to answer the various business questions posed to us by client representatives,
+                creating data visualizations from these queries to more easily communicate important metrics, and making changes to
+                this work as necessary to meet the client's regularly changing needs. </p>
+            <p> While I was largely uninvolved in the persuasive and client-interactive sects of this particular project, my team
+                and I met with Blossman Gas leaders each week for several months to show and discuss the current state of our work for them.
+                This was all in hopes of signing Blossman Gas into an official contract with us, and our efforts were successful-- this
+                success contributed to Utilimarc reaching its revenue goals for 2021 before the end of July. </p>
+            <br></br>
+
+            <h1 class = "page-section"> In my university classes </h1>
+            <img class = "show-for-small-only" src = "images/jarvis.png" style = "margin: 1rem"/>
+            <img class = "show-for-medium" src = "images/jarvis.png" style = "float: right; margin: 1rem"/>
+            <p class = "page-subsection"> "Hug the Angry Jarvis" </p>
+            <p> This is a basic game I wrote in Java for an assignment while in Dr. Jason Sawin's class during my junior year at St. Thomas. A player-versus-AI game of
+                hide-and-seek in a playing arena that resembles a sort of Etch-a-Sketch, here are the basic rules of the game: </p>
+            <ul> 
+                <li class = "list-item"> You begin in the top-left corner of the grid, and Jarvis begins in a random location </li>
+                <li class = "list-item"> Every 800 milliseconds, Jarvis moves to an position adjacent to his current one </li>
+                <li class = "list-item"> After every sixth move, Jarvis will lay an invisible homework trap adjacent to his current position </li>
+                <li class = "list-item"> You are able to move to any adjacent tile to your current position, and provide inputs as often as you wish </li>
+                <li class = "list-item"> Every position you step on becomes "visible", meaning that you can see Jarvis if/when he is there </li>
+                <li class = "list-item"> Once Jarvis leaves a position, it will then become "invisible" again </li>
+                <li class = "list-item"> If the player enters a position that holds a homework trap, he/she cannot move for 5 seconds </li>
+                <li class = "list-item"> The player's objective is to observe how the board changes over time to gather clues regarding the location of Jarvis </li>
+                <li class = "list-item"> Once the player enters the tile where Jarvis currently resides, the game is won </li>
+            </ul>
+            <p> Email me at the address provided in the "Resume" page above if you would like the code necessary to play! </p>
+            <br></br>
+
+            <h1 class = "page-section"> In my personal life </h1>
+            <img class = "show-for-small-only" src = "images/team-generator.png" style = "margin: 1rem"/>
+            <img class = "show-for-medium" src = "images/team-generator.png" style = "float: right; margin: 1rem"/>
+            <p class = "page-subsection"> 4-versus-4 Team Generator </p>
+            <p> Unrelated to any of my past classes but using the skills I gained from them, this is a simple 4-versus-4 team generator I wrote using the
+                C programming language that my friends and I have used countless times while playing video games together since quarantine first started.
+                Who even knows the total amount of time and the number of headaches this simple chunk of code has saved us-- here are a few of its features: </p>
+                <ul> 
+                    <li class = "list-item"> Uses the current time on the computer running the program as a seed to create pseudo-random values
+                        corresponding to how each player will be placed on a team </li>
+                    <li class = "list-item"> The user can specify pairs of players that he/she DOES wish to be placed on the same team </li>
+                    <li class = "list-item"> The user can specify pairs of players that he/she does NOT wish to be placed on the same team </li>
+                    <li class = "list-item"> To mix things up, there is a 1/100 chance each time that the program is run that a 5-versus-3 setup
+                        will be generated instead </li>
+                    <li class = "list-item"> Easily adjustable to meet the user's specific needs </li>
+                </ul>
+            <p> This is easily my most used piece of code that I have written for use outside of my classes. If you are interested in trying out the 
+                code yourself, feel free to email me at the address provided in the "Resume" section! </p>
+            <br></br>
+        </div>
 
         <script src="js/jquery-3.6.0.min.js"></script>
         <script src="js/vendor.js"></script>
